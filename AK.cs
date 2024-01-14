@@ -41,7 +41,7 @@ while (taskName.Count != 0)
     Console.Clear();
     for (int i = 0; i < taskName.Count; i++)
 {
-    Console.Write(number02 + "." + taskName[i]);
+    Console.WriteLine(number02 + "." + taskName[i]);
     number02++;
 }
 }
