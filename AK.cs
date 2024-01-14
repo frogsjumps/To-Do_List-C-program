@@ -4,7 +4,6 @@ int userTaskInput;
 string tasks; 
 int taskErase;
 int number01 = 1;
-int number02 = 1;
 int userInput;
 
 Console.WriteLine("Press 1 if you would like to access the to do list!");
@@ -39,6 +38,7 @@ while (taskName.Count != 0)
     taskErase = Convert.ToInt32(Console.ReadLine())-1;
     taskName.RemoveAt(taskErase);
     Console.Clear();
+    int number02 = 1; 
     for (int i = 0; i < taskName.Count; i++)
 {
     Console.WriteLine(number02 + "." + taskName[i]);
